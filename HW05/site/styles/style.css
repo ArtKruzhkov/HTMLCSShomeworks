@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/Gilroy-Medium.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.header {
+    padding-top: 40px;
+    margin-bottom: 84px;
+}
+
+.logos {
+    width: 12.5%;
+}
+
+.headMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
+.logoName {
+    margin-left: 14px;
+}
+
+.headMenuLink {
+    color: #000;
+    font-family: "Gilroy-Semibold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 32px;
+}
+
+.headMenuLink:hover {
+    color: #F25822;
+}
+
+.topContainer {
+    margin-bottom: 259px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    width: 45%;
+}
+
+.topTitle {
+    margin-bottom: 17px;
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topContText {
+    color: #888;
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topButtons {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.btnStart {
+    padding: 15px 35px;
+    color: #FFF;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #F25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.btnWatch {
+    padding: 15px 35px;
+    color: #AAA;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFF;
+    border-radius: 50px;
+}
+
+.topLogos {
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    margin-top: 190px;
+}
+
+.mainContainerTitle {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainContainerText {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mainContainerLink {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.mainContainerItem {
+    display: grid;
+    gap: 21px;
+}
+
+.mainContainerItemBig {
+    display: grid;
+    gap: 21px;
+    /* height: 291px; */
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.companyInfo {
+    padding-top: 92px;
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.companyInfoTop {
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 55px;
+    align-items: center;
+}
+
+.companyInfoTopTitle {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.companyInfoTopText {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.containerFlexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.companyInfoWrap {
+    display: flex;
+    gap: 30px;
+}
+
+.companyInfoWrapItem {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companyInfoWrapItemCenter {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.infoWrapLink {
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: "Gilroy-Bold";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.fa-chevron-right {
+    margin-left: 6px;
+}
+
+.infoWrapTitle {
+    margin-bottom: 22px;
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.infoWrapText {
+    margin-bottom: 40px;
+    color: #AAA;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
